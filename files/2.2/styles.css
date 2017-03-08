@@ -1,0 +1,26 @@
+.grid {
+	width: 100vw; /*100% of the viewport width*/
+	height: 100vh; /*100% of the viewport height*/
+}
+
+.axis_block {
+	margin-top: 100px;
+	margin-left: 100px;
+	height: 1000px;
+	overflow: auto;
+}
+
+/* move te box diagonally */
+.box {
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: all 2s ease-in-out;
+}
+
+.box:hover {
+	top: 50px;
+	left: 50px;
+	transform: translate(50px, 50px);
+}
+

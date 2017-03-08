@@ -11,3 +11,15 @@ Always keep in mind:
 1º - Default state
 2º - Modified state
 3º - Transition
+
+============================
+2.2 2D Animation Essentials
+============================
+
+Every time an element is placed in a 2D space:
+x coordinate - here is on horizontal space 
+- left: decrease numbers 
+- right: increase numbers
+y coordinate - here is on vertical space
+- top: decrease numbers 
+- bottom: increase numbers

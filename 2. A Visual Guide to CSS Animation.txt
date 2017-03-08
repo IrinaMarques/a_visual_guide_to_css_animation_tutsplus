@@ -29,3 +29,21 @@ y coordinate - here is on vertical space
 ================
 
 We only can apply transitions on the non state.
+
+=============================================
+2.4 Transition Duration and Timing Functions
+=============================================
+
+Transition duration if we want an animation to goes fast or slower.
+CSS property:
+
+transition-duration: 
+- the smaller is the number quicker is the animation.
+- the heigher the number slower it will play out.
+
+Transition Timing Functions control how quickly the animations is played in various points in the duration. 
+
+transition-timing-function:
+- linear - same speed from start to finish
+- ease-in - slow in first and speed in the end
+- ease-out - fast in the start and slow in the end

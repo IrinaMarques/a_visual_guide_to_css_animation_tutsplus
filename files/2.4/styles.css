@@ -1,0 +1,26 @@
+/* transition-duration: 
+smaller number quicker animation
+heigher number slower animation
+
+transition-timing-function:
+linear - same speed from start to finish 
+ease-in - slow in first and speed in the end
+ease-out - fast in the start and slow in the end
+*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.expanding-box {
+	background: red;
+	width: 100px;
+	height: 100px;
+	transition: width 1s linear;
+}
+
+.expanding-box:hover {
+	width: 700px;
+}

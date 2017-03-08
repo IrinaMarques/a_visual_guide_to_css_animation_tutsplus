@@ -1,0 +1,19 @@
+/*
+Three thing we need when we create an animation: 
+1º - Default state
+2º - Modified state
+3º - Transition
+*/
+
+/* 1º The first state */
+.basic-animation {
+	background-color: red;
+	height: 200px;
+	/* 3º transition the height for two seconds */
+	transition: height 2s ease;
+}
+
+/* 2º The second state */
+.basic-animation:hover {
+    height: 500px;
+}

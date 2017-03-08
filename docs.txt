@@ -1,0 +1,13 @@
+=======================================
+2.1 A Quick Animation Demo and Overview
+=======================================
+
+Three thing we need when we create an animation: 
+1º - Element in a default state
+2º - Same element in a diferent state
+3º - In a trigger iniciate a transition from the first state to the second state.
+
+Always keep in mind: 
+1º - Default state
+2º - Modified state
+3º - Transition

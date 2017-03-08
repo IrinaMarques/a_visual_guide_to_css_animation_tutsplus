@@ -23,3 +23,9 @@ x coordinate - here is on horizontal space
 y coordinate - here is on vertical space
 - top: decrease numbers 
 - bottom: increase numbers
+
+================
+2.3 Transitions
+================
+
+We only can apply transitions on the non state.

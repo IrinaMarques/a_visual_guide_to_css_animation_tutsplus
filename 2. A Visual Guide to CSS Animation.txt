@@ -70,3 +70,16 @@ transform: skew(x-deg,y-deg)
 
 Rotation happens around the axis is specified. For a 2D rotation we rotate the z-axis.
 transform: rotate(deg)
+
+=================
+2.6 3D Transforms
+=================
+
+For 3D it's important: 
+- z-axis
+- shape realistic - prespective 
+
+We should create a parent div with:
+width: 100%vw;
+height: 100%vh;
+so we can give prespective.

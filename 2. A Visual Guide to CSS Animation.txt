@@ -47,3 +47,26 @@ transition-timing-function:
 - linear - same speed from start to finish
 - ease-in - slow in first and speed in the end
 - ease-out - fast in the start and slow in the end
+
+===============
+2.5 Transforms
+===============
+
+Transform the shape of the element itself
+- position
+- scale 
+- rotation
+- skew
+
+transform: scale(x,y)
+Default scale is 1 in x-axis and y-axis.
+
+To move something is called translate.
+transform: translate(x,y)
+
+When we skew an element we skew everything inside it.
+If we don't want the content inside to move we have to aplly another transform property to the child skewing in the oposite direction.
+transform: skew(x-deg,y-deg)
+
+Rotation happens around the axis is specified. For a 2D rotation we rotate the z-axis.
+transform: rotate(deg)

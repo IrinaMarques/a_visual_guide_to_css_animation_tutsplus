@@ -1,0 +1,60 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.text_reveal {
+	text-align: center;
+	margin: 16px auto;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 38px;
+	font-weight: 800;
+}
+
+/* SCALE */
+/* time of the transition */
+.transform_01 {
+	margin: 0 auto; 
+	width: 500px;
+	height: 100px;
+	background: red;
+	transition: all 0.5s linear;
+}
+
+/* transform scale */
+.transform_01:hover {
+	transform: scale(2); 
+}
+
+/* TRANSLATE = MOVE */
+/* the transform pushes the text over the screen */
+.transform_02 {
+	margin: 0; 
+	width: 500px;
+	height: 100px;
+	background: green;
+	transform: translate(-410px);
+	transition: all 0.5s linear;
+}
+
+/* back to the default state */
+.transform_02:hover {
+	transform: translate(0);
+}
+
+/* TRANSLATE AND SCALE */
+.transform_03 {
+	margin: 0; 
+	width: 500px;
+	height: 100px;
+	background: orange;
+	transform: translate(-410px);
+	transition: all 0.5s linear;
+}
+
+.transform_03:hover {
+	transform: translate(0);
+	transform: scale(1.5);
+}
